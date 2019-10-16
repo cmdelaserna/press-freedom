@@ -8,7 +8,14 @@ An index to monitor press freedom emergencies
 - Elaborate workflow for basic prototype
 
 ## Workflow (draft)
-- Select basic datasets for testing (AI, USSD, Freedom House, CPJ, Early Warning Project, Netblocks?)
+- Select basic datasets for testing:
+-- AI
+-- USSD
+-- Freedom House
+-- CPJ
+-- Early Warning Project
+-- Netblocks?
+--Data from the Special Rapporteur on Human Rights Defenders between 2014 and 2019.
 - Estimate a set of random forests to assess each covariate's predictive power. 
 - Use cross-validation to examine the out-of-sample predictive power (10 folds?)
 - Test several interpretable algorithms for classification [select classification method for state repression: Most of the empirical research on repression uses ei- ther the indicator used by Poe and Tate (1994), known as the “Political Terror Scale” (PTS) (Gibney, Cornett and Wood, 2009), or an indicator knownas the “Physical Integrity Index” from the Cingranelli-Richards (CIRI) human rights project, Cingranelly and Richards, 2010). Source: An empirical evaluation for state repression, 2014: In addition to CIRI and PTS we employ a new measure from Fariss (2014), which is created using a Bayesian measurement model. 
