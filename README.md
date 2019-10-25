@@ -5,15 +5,20 @@ An index to monitor/forecast press freedom emergencies
 https://www.acleddata.com/curated-data-files/
 
 Data import
-- Import excel file, add date column and export it as json
+- Import excel file.
+- Add date column. 
+- Export it as json
 - Use json file for all future work
-- Select columns to keep, rename column
 
-Data preparation
-- Encode event_type and sub_event_type for ML analysis
-- Aggregate by month
-- Function to get a dataset for a specific country
-- Annotate data: create aggregate value for fatalities, other events?
+Data transformations
+- Select columns to keep, rename columns
+- Encode categorical data for ML analysis
+- Function: return a dataset with data only from a specific country
 
-ML
+ML - 
+- Goal: to classify data every month by buckets, according to risk profile
+- Use this classification to predict risk for current month
 - Separate dataset into training, test, validate
+
+Ideas:
+- Create aggregated value for fatalities, other events?
