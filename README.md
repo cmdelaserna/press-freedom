@@ -11,14 +11,11 @@ Data import
 - Use json file for all future work
 
 Data transformations
-- Select columns to keep, rename columns
+- Rename columns
 - Encode categorical data for ML analysis
-- Function: return a dataset with data only from a specific country
+- Function for basic visualization: plot data from a specific country
 
-ML - 
-- Goal: to classify data every month by buckets, according to risk profile
-- Use this classification to predict risk for current month
-- Separate dataset into training, test, validate
-
-Ideas:
-- Create aggregated value for fatalities, other events?
+K-Clustering
+- Tested k-clustering for all countries at once (2010 - 2019). Lacks specificity. 
+- Next step: cluster date from one country. 
+- Create function to cluster data independently from one coutry at once?
